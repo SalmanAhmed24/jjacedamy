@@ -75,7 +75,7 @@ function Team() {
 				<p className="modalClose" onClick={() => openModal()}>
 					x
 				</p>
-				<p>{details}</p>
+				<p className="innerModal">{details}</p>
 			</Modal>
 		</div>
 	);

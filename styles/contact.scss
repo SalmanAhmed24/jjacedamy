@@ -1,8 +1,14 @@
 .contactWrap {
-	padding: 20px 100px 50px 100px;
+	padding: 20px 70px 50px 70px;
+	@include for-mobile {
+		padding: 20px;
+	}
 	.contact-h {
 		font-size: 74px;
 		text-align: center;
+		@include for-mobile {
+			font-size: 45px;
+		}
 	}
 	.contact-cardWrap {
 		display: flex;
@@ -20,32 +26,65 @@
 			backdrop-filter: blur(5px);
 			padding: 15px 30px;
 			transition: 0.3s ease-in-out;
+			@include for-both {
+				width: 100%;
+				margin-bottom: 20px;
+				padding: 10px;
+			}
 			&:hover {
 				transform: scale(1.05);
 			}
 			h1 {
 				text-align: center;
+				@include for-mobile {
+					font-size: 20px;
+				}
 			}
 			.card-links {
 				display: flex;
 				flex-direction: row;
 				margin-top: 10px;
 				margin-bottom: 10px;
+				@include for-mobile {
+					flex-direction: column;
+					justify-content: center;
+				}
 				p {
 					align-self: center;
 					margin-left: 10px;
 					font-weight: 600;
 					text-shadow: 1px 0px 3px #000;
+					@include for-mobile {
+						text-shadow: none;
+						font-size: 14px;
+						font-weight: 300;
+						margin-left: 0px;
+						width: 100%;
+						text-align: center;
+					}
 				}
 				a {
 					align-self: center;
 					margin-left: 10px;
 					font-weight: 600;
 					text-shadow: 1px 0px 3px #000;
+					width: 100%;
+					@include for-mobile {
+						text-shadow: none;
+						font-size: 14px;
+						font-weight: 300;
+						margin-left: 0px;
+						text-align: center;
+					}
 				}
 				.icons {
 					width: 40px;
 					height: 40px;
+					@include for-mobile {
+						width: 30px;
+						height: 30px;
+						align-self: center;
+					}
 				}
 			}
 		}
@@ -56,6 +95,14 @@
 			flex-direction: row;
 			justify-content: center;
 			top: -100px;
+			@include for-both {
+				overflow: hidden;
+			}
+			@include for-mobile {
+				width: 100%;
+				right: 100px;
+				top: 100px;
+			}
 		}
 	}
 }

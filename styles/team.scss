@@ -1,5 +1,8 @@
 .teamWrap {
-	padding: 20px 100px;
+	padding: 20px 70px;
+	@include for-mobile {
+		padding: 20px;
+	}
 	.heading {
 		display: flex;
 		flex-direction: row;
@@ -8,6 +11,9 @@
 			margin-left: 15px;
 			font-size: 74px;
 			// border-bottom: 6px solid #fff;
+			@include for-mobile {
+				font-size: 45px;
+			}
 		}
 		span {
 			display: inline-block;
@@ -23,20 +29,38 @@
 	justify-content: space-between;
 	margin-top: 20px;
 	flex-wrap: wrap;
+	@include for-both {
+		justify-content: center;
+	}
 	.membersCard {
 		width: 19%;
 		box-shadow: 0 0 5px #fff;
 		border-radius: 5px;
 		padding: 20px 30px;
 		transition: 0.3s ease-in-out;
+		@include for-both {
+			width: 45%;
+			margin-right: 15px;
+			margin-bottom: 15px;
+		}
+		@include for-mobile {
+			width: 100%;
+			margin-right: 0px;
+		}
 		.memberHead {
 			font-size: 20px;
 			color: #fff;
 			text-align: center;
+			@include for-mobile {
+				font-size: 16px;
+			}
 		}
 		p {
 			text-align: center;
 			color: #fff;
+			@include for-mobile {
+				font-size: 15px;
+			}
 		}
 		&:hover {
 			cursor: pointer;
@@ -61,4 +85,7 @@
 		cursor: pointer;
 		color: teal;
 	}
+}
+.innerModal {
+	color: #000;
 }

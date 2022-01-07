@@ -23,8 +23,14 @@
 		border-radius: 10px;
 		box-shadow: 0 0 5px #fff;
 		backdrop-filter: blur(5px);
-		padding: 30px 100px;
+		padding: 30px;
 		transition: 0.3s ease-in-out;
+		@include for-both {
+			width: 70%;
+		}
+		@include for-mobile {
+			width: 95%;
+		}
 		&:hover {
 			box-shadow: 0 0 15px #dfdfdf;
 		}

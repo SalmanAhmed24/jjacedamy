@@ -13,7 +13,8 @@ function SlideOne() {
 				</div>
 			</div>
 			<div className="courseCardWrap">
-				<div className="cardCourse">
+				<img src="./images/slider2.png" className="sliderImg" />
+				{/* <div className="cardCourse">
 					<h1 className="cardCourse-h">Onsite Courses</h1>
 					<ul className="coursesList">
 						<li className="coursesItem">Dirasaat-e-Deeniya</li>
@@ -41,7 +42,7 @@ function SlideOne() {
 					<div className="viewBtn-wrap">
 						<button className="viewCourse">View Details</button>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

@@ -1,28 +1,49 @@
 .slider1Wrap {
 	display: flex;
 	flex-direction: row;
-	padding: 80px 100px;
+	flex-wrap: wrap;
+	padding: 40px 70px;
+	@include for-mobile {
+		padding: 50px 20px;
+	}
 	.contentWrap {
-		width: 45%;
+		width: 50%;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: flex-end;
+		@include for-both {
+			width: 100%;
+			margin-bottom: 20px;
+		}
 		.our-h {
 			font-size: 74px;
 			text-align: left;
 			font-weight: 300;
 			text-transform: uppercase;
 			line-height: 30px;
+			@include for-mobile {
+				font-size: 50px;
+				text-align: center;
+			}
 		}
 		.courses-h {
 			font-size: 74px;
 			text-align: left;
 			text-transform: uppercase;
+			@include for-mobile {
+				font-size: 50px;
+				text-align: center;
+			}
 		}
 		.courses-p {
 			font-size: 20px;
 			text-align: left;
 			width: 80%;
+			@include for-mobile {
+				width: 100%;
+				text-align: center;
+				font-size: 15px;
+			}
 		}
 		.btn-enrol-wrap {
 			margin-top: 30px;
@@ -30,6 +51,9 @@
 			display: flex;
 			flex-direction: row;
 			justify-content: flex-start;
+			@include for-mobile {
+				justify-content: center;
+			}
 			.btn-enrol {
 				font-family: 'Poppins';
 				font-size: 20px;
@@ -48,47 +72,57 @@
 		}
 	}
 	.courseCardWrap {
-		width: 55%;
+		width: 50%;
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
-		.cardCourse {
-			padding: 20px;
-			background: rgb(70 130 180 / 80%);
-			border-radius: 10px;
-			display: flex;
-			flex-direction: column;
-			width: 45%;
-			transition: 0.3s ease-in-out;
-			&:hover {
-				background: rgb(70 130 180 / 100%);
-			}
-			.cardCourse-h {
-				color: #fff;
-				font-weight: 600;
-				margin-bottom: 20px;
-			}
-			.coursesList {
-				display: flex;
-				flex-direction: column;
-				justify-content: flex-start;
-				align-content: flex-start;
-				align-items: flex-start;
-				li {
-					color: #fff;
-					font-size: 18px;
-					margin-bottom: 10px;
-				}
-			}
-			.course-p {
-				width: 85%;
-				margin-top: 30px;
-				align-self: center;
-				font-size: 18px;
-				text-align: left;
-				color: #fff;
-			}
+		justify-content: center;
+		.sliderImg {
+			width: 90%;
 		}
+		@include for-both {
+			width: 100%;
+		}
+		// .cardCourse {
+		// 	padding: 15px;
+		// 	background: rgb(70 130 180 / 80%);
+		// 	border-radius: 10px;
+		// 	display: flex;
+		// 	flex-direction: column;
+		// 	width: 48%;
+		// 	transition: 0.3s ease-in-out;
+		// 	&:hover {
+		// 		background: rgb(70 130 180 / 100%);
+		// 	}
+		// 	.cardCourse-h {
+		// 		color: #fff;
+		// 		font-weight: 600;
+		// 		margin-bottom: 20px;
+		// 		font-size: 24px;
+		// 	}
+		// 	.coursesList {
+		// 		display: flex;
+		// 		flex-direction: column;
+		// 		justify-content: flex-start;
+		// 		align-content: flex-start;
+		// 		align-items: flex-start;
+		// 		padding: 0px 20px;
+		// 		li {
+		// 			color: #fff;
+		// 			font-size: 18px;
+		// 			margin-bottom: 5px;
+		// 			text-align: left;
+		// 		}
+		// 	}
+		// 	.course-p {
+		// 		width: 90%;
+		// 		margin-top: 10px;
+		// 		margin-bottom: 10px;
+		// 		align-self: center;
+		// 		font-size: 16px;
+		// 		text-align: left;
+		// 		color: #fff;
+		// 	}
+		// }
 	}
 }
 .viewBtn-wrap {
@@ -97,6 +131,7 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	align-content: center;
+	margin-top: 10px;
 	.viewCourse {
 		align-self: center;
 		background: #fff;
