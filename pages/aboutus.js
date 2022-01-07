@@ -24,8 +24,8 @@ function About() {
 					ABOUT <span className="span-head">JUNAID JAMSHED (RA)</span>
 				</h1>
 				<p>
-					He soared to fame as the front man of one of Pakistan's most iconic pop bands. His famous patriotic
-					song, “Dil Dil Pakistan” is said to be Pakistan&apos;s second national anthem. In 2003, in
+					He soared to fame as the front man of one of Pakistan&apos;s most iconic pop bands. His famous
+					patriotic song, “Dil Dil Pakistan” is said to be Pakistan&apos;s second national anthem. In 2003, in
 					BBC&apos;s World Service online poll of about 7000 popular songs from all over the world, “Dil Dil
 					Pakistan” came third. And then at the height of his career, he gave it up to devote his life to
 					Allah and to spread HIS message throughout the whole world, and eventually, his spiritual journey
@@ -46,9 +46,9 @@ function About() {
 				</p>
 				<p>
 					At the time of his death, he had almost 2.8 million Facebook fans. That year, he was also placed in
-					the list of World's 500 Most Influential Muslims. In 2018, he was posthumously nominated for the
-					nation&apos;s third highest civilian honour, the “Sitara-i-Imtiaz” and in 2020, he was awarded the
-					“Lifetime Achievement Award” by the Pakistan Air Force.
+					the list of World&apos;s 500 Most Influential Muslims. In 2018, he was posthumously nominated for
+					the nation&apos;s third highest civilian honour, the “Sitara-i-Imtiaz” and in 2020, he was awarded
+					the “Lifetime Achievement Award” by the Pakistan Air Force.
 				</p>
 				<p>
 					To conclude, Junaid Jamshed was an individual extraordinaire - he was a recording artist, television
