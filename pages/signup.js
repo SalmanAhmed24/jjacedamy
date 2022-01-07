@@ -43,7 +43,7 @@ function SignUpPage() {
 							placeholder="Enter Username"
 							type="text"
 							value={username}
-							autocomplete="off"
+							autoComplete="off"
 						/>
 						<input
 							className="inp"
@@ -51,7 +51,7 @@ function SignUpPage() {
 							onChange={(e) => onNameChangeHandler(e)}
 							placeholder="Enter Email"
 							value={email}
-							autocomplete="off"
+							autoComplete="off"
 							autoFocus="off"
 						/>
 					</div>
@@ -62,7 +62,7 @@ function SignUpPage() {
 							placeholder="Enter Password"
 							type="password"
 							value={password}
-							autocomplete="off"
+							autoComplete="off"
 							autoFocus="off"
 						/>
 						<input
@@ -71,7 +71,7 @@ function SignUpPage() {
 							onChange={(e) => onNameChangeHandler(e)}
 							placeholder="Re-enter Password"
 							value={rePassword}
-							autocomplete="off"
+							autoComplete="off"
 							autoFocus="off"
 						/>
 					</div>

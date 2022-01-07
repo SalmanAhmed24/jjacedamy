@@ -43,7 +43,7 @@ function LoginPage() {
 							placeholder="Enter Username"
 							type="text"
 							value={username}
-							autocomplete="off"
+							autoComplete="off"
 						/>
 						<input
 							className="inp"
@@ -51,7 +51,7 @@ function LoginPage() {
 							placeholder="Enter Password"
 							type="password"
 							value={password}
-							autocomplete="off"
+							autoComplete="off"
 							autoFocus="off"
 						/>
 					</div>

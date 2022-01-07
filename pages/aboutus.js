@@ -65,24 +65,24 @@ function About() {
 					established Shaheed Junaid Jamshed Academy of Quranic Sciences in July 2018.
 				</p>
 				<p>
-					A banker by profession, Muniza Javed, after her transition towards the Deen, quit banking and became
+					{`A banker by profession, Muniza Javed, after her transition towards the Deen, quit banking and became
 					an educationist. Like her beloved brother Junaid Jamshed, she left her profession for the sake of
 					Allah’s Deen. She completed her Masters degree in Business administration from Quaid e Azam
 					University and taught Islamiat, Maths & Finance to ‘O’ and ‘A’ level and university students. Later
 					she decided to quit that too in order to fully pursue her Aalima degree in the religion from Wifaq
 					ul Madaaris Al Arabia, Multan and has the privilege to have scholars like Mufti Taqi Usmani sahib db
-					and Hazrat Abdul Sattar sahib as her guides and mentors.
+					and Hazrat Abdul Sattar sahib as her guides and mentors.`}
 				</p>
 				<p>
-					She has been actively engaged in Dawah work and has been teaching Quraanic Sciences for the last 20
+					{`She has been actively engaged in Dawah work and has been teaching Quraanic Sciences for the last 20
 					years. Muniza Aapa’s unique teaching style, her confidence, and her assertive yet soft tone keeps
-					the audience engaged in every session.
+					the audience engaged in every session.`}
 				</p>
 				<p>
-					Enthusiastic, sincere efforts through hard work by Muniza Javed, her teachers, co-ordinators, all
+					{`Enthusiastic, sincere efforts through hard work by Muniza Javed, her teachers, co-ordinators, all
 					those associated with the Academy and women’s passion for learning have made it the wonderful
 					platform that it is today. Since 2018, this Academy has been serving hundreds of women
-					Alhamdulillah.
+					Alhamdulillah.`}
 				</p>
 			</div>
 		</div>
