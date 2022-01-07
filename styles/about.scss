@@ -2,8 +2,9 @@
 	padding: 20px 100px;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	.infoWrap {
-		width: 50%;
+		width: 55%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -28,13 +29,38 @@
 		}
 	}
 	.pictureWrap {
-		width: 50%;
+		width: 45%;
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-content: center;
+		flex-direction: row;
+		justify-content: flex-end;
+		.imgQuran {
+			height: 500px;
+			align-self: flex-end;
+			width: 80%;
+			border-top-left-radius: 45%;
+			border-top-right-radius: 45%;
+			border-bottom-right-radius: 0%;
+			border-bottom-left-radius: 0%;
+			background-image: url('../public/images/about2.jpeg');
+			position: relative;
+			overflow: hidden;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position-y: -15px;
+			background-position-x: -10px;
+
+			// .overlay {
+			// 	position: absolute;
+			// 	z-index: 1;
+			// 	top: 0;
+			// 	width: 100%;
+			// 	height: 100%;
+			// 	background: rgba($color: #000000, $alpha: 0.6);
+			// }
+		}
 	}
 }
+
 .otherParas {
 	padding: 20px 100px 50px 100px;
 	p {

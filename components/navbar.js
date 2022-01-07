@@ -60,22 +60,52 @@ function Navbar() {
 					<img className="logo" src="./images/jj-logo.jpeg" />
 				</div>
 				<ul className="allLinks">
-					<li className="links" onClick={() => router.push('/')}>
+					<li
+						className="links"
+						onClick={() => {
+							router.push('/');
+							toggleDrawer();
+						}}
+					>
 						Home
 					</li>
 					<li className="links">Courses</li>
-					<li className="links" onClick={() => router.push('/aboutus')}>
+					<li
+						className="links"
+						onClick={() => {
+							router.push('/aboutus');
+							toggleDrawer();
+						}}
+					>
 						About Us
 					</li>
-					<li className="links" onClick={() => router.push('/faqs')}>
+					<li
+						className="links"
+						onClick={() => {
+							router.push('/faqs');
+							toggleDrawer();
+						}}
+					>
 						FAQs
 					</li>
 				</ul>
 				<div className="btnWrap">
-					<button className="contact" onClick={() => router.push('/login')}>
+					<button
+						className="contact"
+						onClick={() => {
+							router.push('/login');
+							toggleDrawer();
+						}}
+					>
 						Login
 					</button>
-					<button className="contact" onClick={() => router.push('/contact')}>
+					<button
+						className="contact"
+						onClick={() => {
+							router.push('/contact');
+							toggleDrawer();
+						}}
+					>
 						Contact Us
 					</button>
 				</div>

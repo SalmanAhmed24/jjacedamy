@@ -14,7 +14,9 @@ function AboutUs() {
 				</p>
 			</div>
 			<div className="pictureWrap">
-				<img src="./images/madrassah.png" alt="madrassah" />
+				<div className="imgQuran">
+					<div className="overlay" />
+				</div>
 			</div>
 		</div>
 	);
