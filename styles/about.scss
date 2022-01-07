@@ -80,7 +80,7 @@
 }
 
 .otherParas {
-	padding: 20px 100px 50px 100px;
+	padding: 20px 70px 50px 70px;
 	@include for-mobile {
 		padding: 20px;
 	}
@@ -124,5 +124,28 @@
 				margin-left: 0px;
 			}
 		}
+	}
+}
+.width100 {
+	width: 100% !important;
+}
+.text-center {
+	text-align: center !important;
+	width: 100%;
+}
+.btn-about-wrap {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	button {
+		padding: 5px 20px;
+		font-size: 20px;
+		color: #fff;
+		background: none;
+		box-shadow: 0 0 5px #fff;
+		border-radius: 5px;
+		font-family: 'Poppins';
+		border: 0px;
 	}
 }

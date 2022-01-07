@@ -17,7 +17,7 @@ export default function Home() {
 				/>
 			</Head>
 			<Slide />
-			<AboutUs />
+			<AboutUs home={true} />
 			<Team />
 			<ContactComp />
 		</div>
