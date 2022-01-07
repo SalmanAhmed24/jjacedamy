@@ -1,10 +1,21 @@
 import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
 import { useRouter } from 'next/router';
 function AboutUs({ home }) {
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	const router = useRouter();
 	return (
 		<div className="aboutUs-Wrap">
-			<div className={'infoWrap'}>
+			<div
+				className={'infoWrap'}
+				data-aos="fade-right"
+				data-aos-offset="200"
+				data-aos-delay="50"
+				data-aos-duration="1000"
+				data-aos-easing="ease-in-out"
+			>
 				<div className="headingWrap">
 					<h1 className={'about-h'}>About Us</h1>
 				</div>
@@ -21,11 +32,25 @@ function AboutUs({ home }) {
 				) : null}
 			</div>
 			{home ? (
-				<div className="pictureWrap">
+				<div
+					className="pictureWrap"
+					data-aos="fade-left"
+					data-aos-offset="200"
+					data-aos-delay="50"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-out"
+				>
 					<img className="illustration" src="./images/quran-bg.png" />
 				</div>
 			) : (
-				<div className="pictureWrap">
+				<div
+					className="pictureWrap"
+					data-aos="fade-left"
+					data-aos-offset="200"
+					data-aos-delay="50"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-out"
+				>
 					<div className="imgQuran">
 						<div className="overlay" />
 					</div>

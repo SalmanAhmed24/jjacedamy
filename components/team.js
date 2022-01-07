@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
 import Modal from 'react-modal';
 function Team() {
 	const [ modalIsOpen, setModalIsOpen ] = useState(false);
 	const [ details, setDetails ] = useState('');
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	const openModal = () => {
 		setModalIsOpen(!modalIsOpen);
 	};
@@ -50,7 +54,14 @@ function Team() {
 		}
 	];
 	return (
-		<div className="teamWrap">
+		<div
+			className="teamWrap"
+			data-aos="fade-up"
+			data-aos-offset="250"
+			data-aos-delay="50"
+			data-aos-duration="2000"
+			data-aos-easing="ease-in-out"
+		>
 			<div className="heading">
 				<h1 className="team-h">Team</h1>
 			</div>

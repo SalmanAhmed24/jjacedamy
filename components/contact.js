@@ -1,13 +1,33 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
 function ContactComp() {
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	return (
 		<div className="contactWrap">
-			<h1 className="contact-h">Contact Us</h1>
+			<h1
+				className="contact-h"
+				data-aos="fade-up"
+				data-aos-offset="200"
+				data-aos-delay="50"
+				data-aos-duration="1000"
+				data-aos-easing="ease-in-out"
+			>
+				Contact Us
+			</h1>
 			<div className="contact-cardWrap">
 				<div className="planeWrap">
 					<img src="./images/plane.png" className="plane" alt="--->" />
 				</div>
-				<div className="contact-card">
+				<div
+					className="contact-card"
+					data-aos="fade-left"
+					data-aos-offset="200"
+					data-aos-delay="50"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-out"
+				>
 					<h1>Islamabad Campus</h1>
 					<div className="card-links">
 						<img src="./images/mail.png" className="icons" />
@@ -22,7 +42,14 @@ function ContactComp() {
 						<p>House 598, Street 30, G-10/2, Islamabad</p>
 					</div>
 				</div>
-				<div className="contact-card">
+				<div
+					className="contact-card"
+					data-aos="fade-right"
+					data-aos-offset="200"
+					data-aos-delay="50"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-out"
+				>
 					<h1>Rawalpindi Bahria Campus</h1>
 					<div className="card-links">
 						<img src="./images/mail.png" className="icons" />
