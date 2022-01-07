@@ -1,0 +1,89 @@
+.signUpFlex {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	height: 84vh;
+	.mainWrap {
+		width: 50%;
+	}
+	.formSignUp {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		width: 100%;
+		background: none;
+		border-radius: 10px;
+		box-shadow: 0 0 5px #fff;
+		backdrop-filter: blur(5px);
+		padding: 30px 100px;
+		transition: 0.3s ease-in-out;
+		&:hover {
+			box-shadow: 0 0 15px #fff;
+		}
+		h1 {
+			font-size: 50px;
+			margin-bottom: 10px;
+			color: #fff;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		.btn-wrap {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			button {
+				margin-top: 20px;
+				background: none;
+				color: #fff;
+				transition: 0.3s ease-in-out;
+				padding: 5px 20px;
+				font-size: 20px;
+				font-weight: 500;
+				font-family: 'Poppins';
+				border: 1px solid #fff;
+				border-radius: 5px;
+				&:hover {
+					transform: scale(1.1);
+				}
+			}
+		}
+	}
+}
+.fieldWrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	.inp {
+		width: 49%;
+		padding: 10px;
+		font-size: 16px;
+		font-family: 'Poppins';
+		border-radius: 5px;
+		border: 1px solid #cfcfcf;
+	}
+	.eduDrop,
+	.ageDrop {
+		width: 49%;
+	}
+}
+.pos-abs-img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	top: 30px;
+	left: 500px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: -1;
+	.img-signup {
+		width: 55%;
+		opacity: 0.7;
+	}
+}

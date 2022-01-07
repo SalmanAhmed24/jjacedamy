@@ -1,0 +1,109 @@
+@mixin flexRow {
+	display: flex;
+	flex-direction: row;
+}
+.posFixed {
+	position: fixed;
+	transition: 0.3s ease-in-out;
+	background: rgba($color: #fff, $alpha: 1) !important;
+	z-index: 1;
+}
+.navbarWrap {
+	@include flexRow;
+	padding: 15px 100px;
+	background: rgba($color: #fff, $alpha: 1);
+	box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.4);
+	width: 100%;
+	transition: 0.3s ease-in-out;
+	.logoWrap {
+		width: 40%;
+		// .logo {
+		// 	width: 100px;
+		// }
+		p {
+			color: #000;
+			font-size: 18px;
+			font-weight: 400;
+			span {
+				font-weight: bold;
+			}
+		}
+	}
+	.linksWrap {
+		width: 100%;
+		@include flexRow;
+		justify-content: flex-end;
+		h1 {
+			color: #000;
+			transition: 0.3s ease-in-out;
+			&:hover {
+				cursor: pointer;
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+.drawer-cus {
+	.MuiPaper-root {
+		width: 400px;
+		background: rgba($color: #fff, $alpha: 1);
+		backdrop-filter: blur(5px);
+	}
+}
+.allLinks {
+	list-style: none;
+	.links {
+		align-self: center;
+		margin-right: 70px;
+		margin-bottom: 20px;
+		font-size: 20px;
+		font-weight: 500;
+		transition: 0.3s ease-in-out;
+		color: #000 !important;
+		&:hover {
+			color: #008080;
+			cursor: pointer;
+		}
+	}
+}
+.closeWrap {
+	@include flexRow;
+	justify-content: flex-end;
+	margin-top: 20px;
+	margin-right: 20px;
+	img {
+		width: 20px;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
+.btnWrap {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 0px 40px;
+	.contact {
+		align-self: center;
+		font-weight: 500;
+		color: #000;
+		margin-right: 20px;
+		box-shadow: 0 0 5px #cfcfcf;
+		background: none;
+		border-radius: 5px;
+		padding: 2px 10px;
+		font-size: 18px;
+		font-family: 'Poppins';
+		transition: 0.3s ease-in-out;
+		&:hover {
+			background: #fff;
+			color: #000;
+			cursor: pointer;
+		}
+	}
+}
+.logo {
+	width: 65%;
+	padding: 10px 40px;
+}

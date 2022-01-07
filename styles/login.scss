@@ -1,0 +1,104 @@
+.LoginFlex {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	height: 84vh;
+	.mainWrap {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.formLogin {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		width: 30%;
+		background: none;
+		border-radius: 10px;
+		box-shadow: 0 0 5px #fff;
+		backdrop-filter: blur(5px);
+		padding: 30px 100px;
+		transition: 0.3s ease-in-out;
+		&:hover {
+			box-shadow: 0 0 15px #dfdfdf;
+		}
+		h1 {
+			font-size: 50px;
+			margin-bottom: 0px;
+			color: #fff;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		.btn-wrap {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			button {
+				margin-top: 20px;
+				background: none;
+				color: #fff;
+				transition: 0.3s ease-in-out;
+				padding: 5px 20px;
+				font-size: 20px;
+				font-weight: 500;
+				font-family: 'Poppins';
+				border: 1px solid #fff;
+				border-radius: 5px;
+				&:hover {
+					cursor: pointer;
+					transform: scale(1.1);
+				}
+			}
+		}
+	}
+}
+.loginWrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.inp {
+		width: 100%;
+		margin-top: 10px;
+		padding: 10px;
+		font-size: 16px;
+		font-family: 'Poppins';
+		border-radius: 5px;
+		border: 1px solid #cfcfcf;
+	}
+	.eduDrop,
+	.ageDrop {
+		width: 49%;
+	}
+}
+.pos-abs-img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	top: 30px;
+	left: 500px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: -1;
+	.img-signup {
+		width: 45%;
+		opacity: 0.7;
+	}
+}
+.forgetWrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	.para-forget {
+		margin-top: 10px;
+		color: #fff;
+	}
+}
