@@ -4,10 +4,10 @@ function Online() {
 		<div className="onlineMain">
 			<div className="onlineWrap">
 				<p>
-					Junaid Jamshed Academy of Quraanic Sciences Online's courses are based on the Qur'an and Sunnah, and
-					draw upon the rich scholarly tradition of Islamic civilization with a respect for all scholars of
-					the Ahl al-Sunnah wal-Jama'ah. To date, our courses have been attended by thousands of women from
-					dozens of countries all around the world
+					Junaid Jamshed Academy of Quraanic Sciences Online&apos;s courses are based on the Qur&apos;an and
+					Sunnah, and draw upon the rich scholarly tradition of Islamic civilization with a respect for all
+					scholars of the Ahl al-Sunnah wal-Jama&apos;ah. To date, our courses have been attended by thousands
+					of women from dozens of countries all around the world
 				</p>
 				<p>
 					Learn anywhere in the world at your convinience You can be anywhere in the world and attend these
