@@ -1,0 +1,147 @@
+.supportWrap {
+	padding: 80px 70px 40px 70px;
+	@include for-mobile {
+		padding: 80px 20px 40px 20px;
+	}
+	.infoWrap {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		.info {
+			width: 48%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			@include for-both {
+				width: 100%;
+			}
+			.support-h {
+				font-size: 70px;
+				text-transform: uppercase;
+				@include for-mobile {
+					font-size: 35px;
+				}
+			}
+		}
+		.infoImg {
+			width: 48%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			@include for-both {
+				width: 100%;
+			}
+			img {
+				animation-name: imageUpDown;
+				animation-iteration-count: infinite;
+				animation-duration: 5s;
+				animation-timing-function: ease-in-out;
+			}
+		}
+	}
+}
+.bankCardWrap {
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 0;
+	.center {
+		text-align: center;
+		font-size: 25px;
+		font-weight: 300;
+	}
+	.bankCard {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		padding: 40px 20px;
+		border-radius: 10px;
+		background: rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(5px);
+		margin-top: 40px;
+		box-shadow: 0 0 10px #fff;
+		transition: 0.3s ease-in-out;
+		@include for-mobile {
+			padding: 40px 10px;
+		}
+		@include for-both {
+			width: 100%;
+		}
+		&:hover {
+			transform: scale(1.01);
+		}
+		.bank-h {
+			text-align: center;
+			text-transform: uppercase;
+			text-shadow: 2px 2px #000;
+			font-size: 30px;
+			@include for-mobile {
+				text-align: left;
+			}
+		}
+		.bank-h2 {
+			text-align: center;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			@include for-mobile {
+				text-align: left;
+			}
+		}
+		.bank-p {
+			text-align: center;
+			font-size: 18px;
+			@include for-mobile {
+				font-size: 14px;
+				text-align: left;
+			}
+			.p-link {
+				font-weight: 700;
+				transition: 0.3s ease-in-out;
+				margin-left: 5px;
+				margin-right: 5px;
+				display: inline-block;
+				word-break: break-all;
+				@include for-mobile {
+					text-align: left;
+				}
+				&:hover {
+					color: #ffcc52;
+				}
+			}
+		}
+	}
+	.bank-img {
+		position: absolute;
+		top: 200px;
+		width: 35%;
+		bottom: 0px;
+		right: 0px;
+		z-index: -1;
+		@include for-both {
+			top: 400px;
+		}
+	}
+}
+@keyframes imageUpDown {
+	0% {
+		transform: translateY(0);
+	}
+	25% {
+		transform: translateY(-10px);
+	}
+	50% {
+		transform: translateY(20px);
+	}
+	75% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}

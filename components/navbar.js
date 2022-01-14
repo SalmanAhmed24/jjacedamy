@@ -69,7 +69,15 @@ function Navbar() {
 					>
 						Home
 					</li>
-					<li className="links">Courses</li>
+					<li
+						className="links"
+						onClick={() => {
+							router.push('/courses');
+							toggleDrawer();
+						}}
+					>
+						Courses
+					</li>
 					<li
 						className="links"
 						onClick={() => {
@@ -78,6 +86,15 @@ function Navbar() {
 						}}
 					>
 						About Us
+					</li>
+					<li
+						className="links"
+						onClick={() => {
+							router.push('/support');
+							toggleDrawer();
+						}}
+					>
+						Support Us
 					</li>
 					<li
 						className="links"
