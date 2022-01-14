@@ -16,15 +16,15 @@ function Online() {
 					Deen in their lives at any time that is convenient for them.
 				</p>
 				<h3 className="course-new-h">Online Tafseer, Hadith, Seerah, Fiqh, Grammar Registration link</h3>
-				<a className="course-register" href="https://forms.gle/ouxduEXyfMCbVD8x8" target={'_blank'}>
+				<a className="course-register" href="https://forms.gle/ouxduEXyfMCbVD8x8" rel="noreferrer">
 					Register
 				</a>
 				<h3 className="course-new-h">Kindergarten class Registration link</h3>
-				<a className="course-register" href="https://forms.gle/quL52MjGxu4dXrPr7" target={'_blank'}>
+				<a className="course-register" href="https://forms.gle/quL52MjGxu4dXrPr7" rel="noreferrer">
 					Register
 				</a>
 				<h3 className="course-new-h">Tajweed link</h3>
-				<a className="course-register" href="https://forms.gle/4Lzn79uqB7hmAy3D6" target={'_blank'}>
+				<a className="course-register" href="https://forms.gle/4Lzn79uqB7hmAy3D6" rel="noreferrer">
 					Register
 				</a>
 			</div>
