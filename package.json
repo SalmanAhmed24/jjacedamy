@@ -19,6 +19,7 @@
     "react-modal": "^3.14.4",
     "react-responsive-carousel": "^3.2.22",
     "react-select": "^5.2.1",
+    "react-tabs": "^3.2.3",
     "sass": "^1.45.1"
   },
   "devDependencies": {
