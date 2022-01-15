@@ -26,7 +26,7 @@ export default function Home() {
 			<Team />
 			<ContactComp />
 			<Script strategy="lazyOnload" src="https://apps.elfsight.com/p/platform.js" defer />
-			<div class="elfsight-app-50f6761c-37e0-41cb-bd28-e0b374a61c53" />
+			<div className="elfsight-app-50f6761c-37e0-41cb-bd28-e0b374a61c53" />
 		</div>
 	);
 }
