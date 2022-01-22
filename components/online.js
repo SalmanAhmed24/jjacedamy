@@ -4,18 +4,18 @@ function Online() {
 		<div className="onlineMain">
 			<div className="onlineWrap">
 				<p>
-					Junaid Jamshed Academy of Quraanic Sciences Online&apos;s courses are based on the Qur&apos;an and
+					Junaid Jamshed Academy of Quranic Science&apos;s Online courses are based on the Qur&apos;an and
 					Sunnah, and draw upon the rich scholarly tradition of Islamic civilization with a respect for all
 					scholars of the Ahl al-Sunnah wal-Jama&apos;ah. To date, our courses have been attended by thousands
-					of women from dozens of countries all around the world
+					of women from dozens of countries all around the world.
 				</p>
 				<p>
-					Learn anywhere in the world at your convinience You can be anywhere in the world and attend these
-					classes.Attend classes live or listen to the class recording at a convenient time. Online learning
+					Learn anywhere in the world at your convenience. You can be virtually anywhere and attend these
+					classes. Take classes live or listen to the class recordings when they get replayed. Online learning
 					with Junaid Jamshed Academy allows busy women and girls who are eager to get basic understanding of
 					Deen in their lives at any time that is convenient for them.
 				</p>
-				<h3 className="course-new-h">Online Tafseer, Hadith, Seerah, Fiqh, Grammar Registration link</h3>
+				<h3 className="course-new-h">Online Tafseer, Hadith, Seerah, Fiqh, Arabic Grammar Registration link</h3>
 				<a className="course-register" href="https://forms.gle/ouxduEXyfMCbVD8x8" rel="noreferrer">
 					Register
 				</a>

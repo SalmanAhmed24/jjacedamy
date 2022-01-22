@@ -6,7 +6,7 @@ function Faqs() {
 			<div className="bannerWrap">
 				<div className="faqHeadInfo">
 					<h1 className="faqs-h">FAQs</h1>
-					<p className="faqs-p">We have some frequently asked questions listed below.</p>
+					<p className="faqs-p">Following are some of the frequently asked questions.</p>
 				</div>
 				<div className="img-faqsWrap">
 					<img src="./images/faqs.png" alt="?" className="faq-img" />

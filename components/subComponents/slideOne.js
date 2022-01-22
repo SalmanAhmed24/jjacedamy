@@ -6,7 +6,7 @@ function SlideOne() {
 				<h1 className="our-h">Our</h1>
 				<h1 className="courses-h">Courses</h1>
 				<p className="courses-p">
-					We offer both onsite as well as Offsite courses for students all around Pakistan
+					We offer both Onsite as well as Offsite courses for students all around the globe
 				</p>
 				<div className="btn-enrol-wrap">
 					<button className="btn-enrol">Enroll Now</button>

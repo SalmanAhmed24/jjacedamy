@@ -11,7 +11,7 @@ function Courses() {
 				<Tabs>
 					<TabList>
 						<Tab>Online Courses</Tab>
-						<Tab>On-site Courses</Tab>
+						<Tab>Onsite Courses</Tab>
 					</TabList>
 
 					<TabPanel>

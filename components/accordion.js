@@ -20,27 +20,27 @@ function FaqAccordion() {
 			</AccordionItem>
 			<AccordionItem>
 				<AccordionItemHeading>
-					<AccordionItemButton>What is the monthly fee for on-campus classes?</AccordionItemButton>
+					<AccordionItemButton>What is the monthly fee for Oncampus classes?</AccordionItemButton>
 				</AccordionItemHeading>
 				<AccordionItemPanel>
-					<p>The monthly fee for on-campus classes is PKR 2,000.</p>
+					<p>The monthly fee for Oncampus classes is PKR 2,000.</p>
 				</AccordionItemPanel>
 			</AccordionItem>
 			<AccordionItem>
 				<AccordionItemHeading>
-					<AccordionItemButton>On what days of the week do on-campus classes take place?</AccordionItemButton>
+					<AccordionItemButton>On what days of the week do Oncampus classes take place?</AccordionItemButton>
 				</AccordionItemHeading>
 				<AccordionItemPanel>
-					<p>On-campus classes occur from Monday to Friday.</p>
+					<p>Oncampus classes occur from Monday to Thursday.</p>
 				</AccordionItemPanel>
 			</AccordionItem>
 			<AccordionItem>
 				<AccordionItemHeading>
-					<AccordionItemButton>What are the class timings for on-campus classes?</AccordionItemButton>
+					<AccordionItemButton>What are the class timings for Oncampus classes?</AccordionItemButton>
 				</AccordionItemHeading>
 				<AccordionItemPanel>
 					<p>
-						The Darasaat-e-Deeniya courses and Tajweed classes are from 10:00 am to 1:00 pm, second and
+						The Dirasaat-e-Deeniya courses and Tajweed classes are from 10:00 am to 1:00 pm, second and
 						third year Aalimah course classes are from 9:00 am to 12:00 pm, and first year Aalimah course
 						classes are from 3:00 pm to 5:00 pm.
 					</p>
@@ -63,7 +63,7 @@ function FaqAccordion() {
 					<AccordionItemButton>What is the fee for online classes?</AccordionItemButton>
 				</AccordionItemHeading>
 				<AccordionItemPanel>
-					<p>There is no fee for online classes.</p>
+					<p>There is no fee for any online classes except Kindergarten.</p>
 				</AccordionItemPanel>
 			</AccordionItem>
 			<AccordionItem>

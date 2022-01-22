@@ -12,9 +12,9 @@ function Support() {
 						supporting widows, orphans, the elderly, etc. These contributions also help us arrange
 						enlightening seminars and workshops around important Islamic events and topics such as Muharram,
 						fasting and the month of Ramadan, performing Hajj, etc. and are used to fulfil pending fees and
-						dues of needy students. Our worldwide online programs are being conducted free-of-cost and
-						onsite classes have nominal charges, so this financial support is utilized to ensure smooth
-						running of all events and Academy-related activites.
+						dues of needy students. Our worldwide Online programs are being conducted free of cost and
+						Onsite classes have nominal charges, so this financial support is utilized to ensure smooth
+						running of all events and Academy related activites.
 					</p>
 				</div>
 				<div className="infoImg">
@@ -30,7 +30,7 @@ function Support() {
 					<h1 className="bank-h">Bank Information</h1>
 					<h2 className="bank-h2">Account Title</h2>
 					<p className="bank-p">Shaheed Junaid Jamshed Academy of Quranic Studies</p>
-					<h2 className="bank-h2">Account Number:</h2>
+					<h2 className="bank-h2">Account Number</h2>
 					<p className="bank-p">6026820301714138513</p>
 					<h2 className="bank-h2">IBAN</h2>
 					<p className="bank-p">PK74MPBL0268067140138513</p>

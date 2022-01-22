@@ -50,14 +50,16 @@ function ContactComp() {
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-out"
 				>
-					<h1>Rawalpindi Bahria Campus</h1>
+					<h1>Bahria Campus Rawalpindi </h1>
 					<div className="card-links">
 						<img src="./images/mail.png" className="icons" />
 						<a href="mailto:junaidjamshedacademy@gmail.com">junaidjamshedacademy@gmail.com</a>
 					</div>
 					<div className="card-links">
 						<img src="./images/phone.png" className="icons" />
-						<a href="tel:+923400271111">03245023783</a>
+						<a href="tel:+923245023783">03245023783</a>
+						<span className="comma">/</span>
+						<a href="tel:+923400271111">03400271111</a>
 					</div>
 					<div className="card-links">
 						<img src="./images/address.png" className="icons" />

@@ -6,10 +6,10 @@ import { Carousel } from 'react-responsive-carousel';
 function Slide() {
 	return (
 		<div>
-			<Carousel autoPlay={true} infiniteLoop={true} interval={5000} showStatus={false} showThumbs={false}>
-				<SlideOne />
-				<SlideOne />
-			</Carousel>
+			{/* <Carousel autoPlay={true} infiniteLoop={true} interval={5000} showStatus={false} showThumbs={false}> */}
+			<SlideOne />
+			{/* <SlideOne /> */}
+			{/* </Carousel> */}
 		</div>
 	);
 }

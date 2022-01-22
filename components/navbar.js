@@ -23,12 +23,14 @@ function Navbar() {
 	};
 	return (
 		<nav className={scrollPosition > 68 ? 'navbarWrap posFixed' : 'navbarWrap'}>
-			{/* <div className="logoWrap"> */}
-			{/* <p>
+			<div className="logoWrap">
+				{/* <p>
 					<span>Shaheed Junaid Jamshed Academy</span> of Quranic Sciences
 				</p> */}
-			{/* <img className="logo" onClick={() => router.push('/')} src="./images/jj-logo.jpeg" /> */}
-			{/* </div> */}
+				{scrollPosition > 68 ? null : (
+					<img className="logo" onClick={() => router.push('/')} src="./images/logo.png" />
+				)}
+			</div>
 			<div className="linksWrap">
 				<h1 onClick={() => toggleDrawer()}>&#9776;</h1>
 				{/* <ul className="allLinks">
@@ -107,7 +109,7 @@ function Navbar() {
 					</li>
 				</ul>
 				<div className="btnWrap">
-					<button
+					{/* <button
 						className="contact"
 						onClick={() => {
 							router.push('/login');
@@ -115,7 +117,7 @@ function Navbar() {
 						}}
 					>
 						Login
-					</button>
+					</button> */}
 					<button
 						className="contact"
 						onClick={() => {

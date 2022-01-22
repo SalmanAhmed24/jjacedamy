@@ -21,9 +21,9 @@ function AboutUs({ home }) {
 				</div>
 				<p className="about-p">
 					Shaheed Junaid Jamshed Academy of Quranic Sciences was established by Muniza Javed (Sister of
-					Shaheed Junaid Jamshed RA.) in July 2018 and is affiliated with the Wifaq ul Madaris
-					Al-Arabia,Multan (Pakistan), headed by Shaykh ul-Hadith Mufti Muhammad Taqi Usmani DB. Imminent
-					scholar such as Maulana Muhammad Hanif Jalandhari DB is also present on the Wifaq’s Advisory Board.
+					Shaheed Junaid Jamshed RA.) in July 2018 and is affiliated with the Wifaq ul Madaris Al-Arabia,
+					Multan (Pakistan), headed by Shaykh ul-Hadith Mufti Muhammad Taqi Usmani DB. Imminent scholar such
+					as Maulana Muhammad Hanif Jalandhari DB is also present on the Wifaq’s Advisory Board.
 				</p>
 				{home ? (
 					<div className="btn-about-wrap">
