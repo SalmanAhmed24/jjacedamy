@@ -22,7 +22,7 @@ function Navbar() {
 		setIsOpen(!isOpen);
 	};
 	return (
-		<nav className={scrollPosition > 68 ? 'navbarWrap posFixed' : 'navbarWrap'}>
+		<nav className={scrollPosition > 68 ? 'navbarColored posFixed' : 'navbarWrap'}>
 			<div className="logoWrap">
 				{/* <p>
 					<span>Shaheed Junaid Jamshed Academy</span> of Quranic Sciences

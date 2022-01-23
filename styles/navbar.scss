@@ -8,7 +8,7 @@
 	backdrop-filter: blur(10px);
 	z-index: 1;
 }
-.navbarWrap {
+.navbarColored {
 	display: flex;
 	flex-direction: row;
 	padding: 15px 50px;
@@ -18,6 +18,45 @@
 	-webkit-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
 	backdrop-filter: blur(5px);
+	.logoWrap {
+		width: 40%;
+		.logo {
+			width: 30%;
+		}
+		p {
+			color: #000;
+			font-size: 18px;
+			font-weight: 400;
+			span {
+				font-weight: bold;
+			}
+		}
+	}
+	.linksWrap {
+		width: 100%;
+		@include flexRow;
+		justify-content: flex-end;
+		h1 {
+			color: #000;
+			transition: 0.3s ease-in-out;
+			align-self: center;
+			&:hover {
+				cursor: pointer;
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+.navbarWrap {
+	display: flex;
+	flex-direction: row;
+	padding: 15px 70px;
+	// background: rgba(255, 255, 255, 0.2);
+	// box-shadow: 0px 5px 15px rgb(0 0 0 / 50%);
+	width: 100%;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	// backdrop-filter: blur(5px);
 	.logoWrap {
 		width: 40%;
 		.logo {

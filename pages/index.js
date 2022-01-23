@@ -21,7 +21,9 @@ export default function Home() {
 				/>
 				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 			</Head>
-			<Slide />
+			<div className="cus-pad">
+				<Slide />
+			</div>
 			<AboutUs home={true} />
 			<Team />
 			<ContactComp />

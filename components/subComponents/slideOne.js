@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 function SlideOne() {
+	const router = useRouter();
 	return (
 		<div className="slider1Wrap">
 			<div className="contentWrap">
@@ -9,7 +11,9 @@ function SlideOne() {
 					We offer both Onsite as well as Offsite courses for students all around the globe
 				</p>
 				<div className="btn-enrol-wrap">
-					<button className="btn-enrol">Enroll Now</button>
+					<button className="btn-enrol" onClick={() => router.push('/courses')}>
+						Enroll Now
+					</button>
 				</div>
 			</div>
 			<div className="courseCardWrap">
