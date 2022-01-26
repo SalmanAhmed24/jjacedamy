@@ -20,16 +20,16 @@ export default function Home() {
 					rel="stylesheet"
 				/>
 				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-				<Script strategy="lazyOnload" async src="https://www.googletagmanager.com/gtag/js?id=G-QCC4095N8J" />
-				<Script>
-					{`window.dataLayer = window.dataLayer || [];
+			</Head>
+			<Script strategy="lazyOnload" async src="https://www.googletagmanager.com/gtag/js?id=G-QCC4095N8J" />
+			<Script>
+				{`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-QCC4095N8J');
 				`}
-				</Script>
-			</Head>
+			</Script>
 			<div className="cus-pad">
 				<Slide />
 			</div>
