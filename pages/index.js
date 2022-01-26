@@ -21,8 +21,13 @@ export default function Home() {
 				/>
 				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 			</Head>
-			<Script strategy="lazyOnload" async src="https://www.googletagmanager.com/gtag/js?id=G-QCC4095N8J" />
-			<Script>
+			<Script
+				id="gtag"
+				strategy="lazyOnload"
+				async
+				src="https://www.googletagmanager.com/gtag/js?id=G-QCC4095N8J"
+			/>
+			<Script id="gtag-code">
 				{`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
