@@ -24,9 +24,6 @@ function Navbar() {
 	return (
 		<nav className={scrollPosition > 68 ? 'navbarColored posFixed' : 'navbarWrap'}>
 			<div className="logoWrap">
-				{/* <p>
-					<span>Shaheed Junaid Jamshed Academy</span> of Quranic Sciences
-				</p> */}
 				{scrollPosition > 68 ? null : (
 					<img className="logo" onClick={() => router.push('/')} src="./images/logo.png" />
 				)}

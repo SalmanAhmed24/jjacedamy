@@ -6,6 +6,7 @@ body {
 	background: linear-gradient(to right, #000046, #1cb5e0);
 	overflow-x: hidden;
 	overflow-y: overlay;
+	scroll-behavior: smooth;
 }
 h1,
 h2,
@@ -40,6 +41,42 @@ a {
 }
 .cus-pad {
 	margin-bottom: 50px;
+}
+.scrollVisible {
+	position: fixed;
+	left: 30px;
+	bottom: 30px;
+}
+.scrollHide {
+	display: none;
+}
+.animate {
+	animation-name: upDown;
+	animation-timing-function: ease-in-out;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	position: absolute;
+	top: -30px;
+	img {
+		width: 30px;
+	}
+}
+@keyframes upDown {
+	0% {
+		top: -30px;
+	}
+	25% {
+		top: -50px;
+	}
+	50% {
+		top: -30px;
+	}
+	75% {
+		top: -50px;
+	}
+	100% {
+		top: -30px;
+	}
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 @import './navbar.scss';

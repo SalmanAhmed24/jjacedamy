@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import AboutUs from '../components/about';
 function About() {
+	const [ scrollValue, setScrollValue ] = useState(0);
+	useEffect(() => {
+		window.addEventListener('scroll', handleScroll);
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
+	const handleScroll = () => {
+		const position = window.pageYOffset;
+		setScrollValue(position);
+	};
 	return (
 		<div>
 			<AboutUs />
@@ -69,6 +81,11 @@ function About() {
 					passion for learning have made it the wonderful platform that it is today. Since 2018, this Academy
 					has been serving hundreds of women Alhamdulillah.
 				</p>
+			</div>
+			<div className={scrollValue > 100 ? 'scrollVisible' : 'scrollHide'}>
+				<a href="#top" className="animate">
+					<img src="./images/scroll-up.png" alt="scroll back" className="scroll-img" />
+				</a>
 			</div>
 			<div className="elfsight-app-50f6761c-37e0-41cb-bd28-e0b374a61c53" />
 		</div>

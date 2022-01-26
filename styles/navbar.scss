@@ -20,8 +20,14 @@
 	backdrop-filter: blur(5px);
 	.logoWrap {
 		width: 40%;
+		@include for-both {
+			width: 100%;
+		}
 		.logo {
 			width: 30%;
+			@include for-both {
+				width: 50%;
+			}
 		}
 		p {
 			color: #000;
@@ -59,8 +65,14 @@
 	// backdrop-filter: blur(5px);
 	.logoWrap {
 		width: 40%;
+		@include for-both {
+			width: 100%;
+		}
 		.logo {
 			width: 30%;
+			@include for-both {
+				width: 100px;
+			}
 		}
 		p {
 			color: #000;

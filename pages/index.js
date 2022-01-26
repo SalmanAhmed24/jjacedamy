@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Slide from '../components/slider';
 import AboutUs from '../components/about';
@@ -6,6 +6,18 @@ import Team from '../components/team';
 import ContactComp from '../components/contact';
 import Script from 'next/script';
 export default function Home() {
+	const [ scrollValue, setScrollValue ] = useState(0);
+	useEffect(() => {
+		window.addEventListener('scroll', handleScroll);
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
+	const handleScroll = () => {
+		const position = window.pageYOffset;
+		setScrollValue(position);
+	};
 	return (
 		<div>
 			<Head>
@@ -35,12 +47,17 @@ export default function Home() {
   gtag('config', 'G-QCC4095N8J');
 				`}
 			</Script>
-			<div className="cus-pad">
+			<div id="top" className="cus-pad">
 				<Slide />
 			</div>
 			<AboutUs home={true} />
 			<Team />
 			<ContactComp />
+			<div className={scrollValue > 100 ? 'scrollVisible' : 'scrollHide'}>
+				<a href="#top" className="animate">
+					<img src="./images/scroll-up.png" alt="scroll back" className="scroll-img" />
+				</a>
+			</div>
 			<Script strategy="lazyOnload" src="https://apps.elfsight.com/p/platform.js" defer />
 			<div className="elfsight-app-50f6761c-37e0-41cb-bd28-e0b374a61c53" />
 		</div>
