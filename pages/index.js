@@ -14,12 +14,21 @@ export default function Home() {
 					name="description"
 					content="Shaheed Junaid Jamshed Academy of Quranic Sciences was established by Muniza Javed (Sister of Shaheed Junaid Jamshed RA.) in July 2018 and is affiliated with the Wifaq ul Madaris Al-Arabia,Multan (Pakistan), headed by Shaykh ul-Hadith Mufti Muhammad Taqi Usmani DB. Imminent scholar such as Maulana Muhammad Hanif Jalandhari DB is also present on the Wifaq’s Advisory Board"
 				/>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="shortcut icon" href="./logo.png" />
 				<link
 					href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
 					rel="stylesheet"
 				/>
 				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+				<Script strategy="lazyOnload" async src="https://www.googletagmanager.com/gtag/js?id=G-QCC4095N8J" />
+				<Script>
+					{`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QCC4095N8J');
+				`}
+				</Script>
 			</Head>
 			<div className="cus-pad">
 				<Slide />
