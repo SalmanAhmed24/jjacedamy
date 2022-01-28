@@ -38,7 +38,7 @@ function Team() {
 			name: 'Sumaiya Kakakhel',
 			designation: 'Senior Faculty Member',
 			details:
-				'BA in Arabic and Islamic Studies from Punjab University. 3 years Aalimah course from Madrassa Aisha Siddeqa. Joined Junaid Jamshed Academy three years ago and has been teaching Hadith Shareef till date.'
+				'Hamshira Mufti Adnan Kakakhel is BA in Arabic and Islamic Studies from Punjab University. 3 years Aalimah course from Madrassa Aisha Siddeqa. Joined Junaid Jamshed Academy three years ago and has been teaching Hadith Shareef till date.'
 		},
 		{
 			name: 'Samina Sanaullah',
