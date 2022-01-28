@@ -35,6 +35,12 @@ function Team() {
 				'Senior Faculty Member – She has done the Masturaat Course from Madrasa Ayesha Siddiqa (RA) as well as the Tajweed and Masadar-e-Shariah courses. She has taught at the Madrasa Ayesha Siddiqa (RA) for 13 years before becoming a faculty member at the Shaheed Junaid Jamshed Academy of Quranic Sciences three years ago. She now teaches Seerah and Hayat ul Muslimeen Oncampus and Online.'
 		},
 		{
+			name: 'Sumaiya Kakakhel',
+			designation: 'Senior Faculty Member',
+			details:
+				'BA in Arabic and Islamic Studies from Punjab University. 3 years Aalimah course from Madrassa Aisha Siddeqa. Joined Junaid Jamshed Academy three years ago and has been teaching Hadith Shareef till date.'
+		},
+		{
 			name: 'Samina Sanaullah',
 			designation: 'Senior Faculty Member',
 			details:
