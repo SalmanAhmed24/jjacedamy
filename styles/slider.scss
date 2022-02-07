@@ -33,7 +33,7 @@
 			text-align: left;
 			text-transform: uppercase;
 			@include for-mobile {
-				font-size: 30px;
+				font-size: 20px;
 				text-align: center;
 			}
 		}
@@ -68,8 +68,8 @@
 				color: #fff;
 				transition: 0.3s ease-in-out;
 				@include for-mobile {
-					font-size: 16px;
-					padding: 5px 10px;
+					font-size: 18px;
+					padding: 5px 15px;
 				}
 				&:hover {
 					transform: scale(1.1);
