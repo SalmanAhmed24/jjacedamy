@@ -63,15 +63,26 @@
 	-webkit-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
 	// backdrop-filter: blur(5px);
+	@include for-mobile {
+		flex-flow: wrap;
+	}
 	.logoWrap {
 		width: 40%;
 		@include for-both {
 			width: 100%;
 		}
+		@include for-mobile {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
 		.logo {
 			width: 30%;
 			@include for-both {
 				width: 100px;
+			}
+			@include for-mobile {
+				width: 100%;
 			}
 		}
 		p {
