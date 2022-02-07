@@ -4,7 +4,7 @@
 	flex-wrap: wrap;
 	padding: 20px 70px;
 	@include for-mobile {
-		padding: 100px 20px 50px 20px;
+		padding: 20px 20px 20px 20px;
 	}
 	.contentWrap {
 		width: 50%;
@@ -67,6 +67,10 @@
 				box-shadow: 0 0 5px #fff;
 				color: #fff;
 				transition: 0.3s ease-in-out;
+				@include for-mobile {
+					font-size: 16px;
+					padding: 3px 10px;
+				}
 				&:hover {
 					transform: scale(1.1);
 				}
