@@ -226,15 +226,16 @@ function Testimonials() {
 							<p>
 								Alhamdulillah by the grace of Allah Subhanahu wa Ta&apos;ala, I am associated with this
 								Academy since 2020. I am so grateful to my teachers who always give us lots of
-								motivation about our blessed Deen "Islam". Shaheed Junaid Jamshed Academy of Quranic
-								Sciences provides us a vast platform to receive Islamic education. The environment of
-								the Academy is so different from others. Muniza Javed (Hamsheera Shaheed Junaid Jamshed)
-								teaches Tafseer wonderfully well. May Allah accept her efforts and be very pleased with
-								her.I am very thankful to all the coordinators and teachers of the academy including
-								Hadith teacher Sumaiya baji,Seerah teacher Seema Aapa and Aalimah Farwa Khalil. Muzaina
-								Usman, the sweetest Fiqh teacher ever, Samina Sanaullah Aapa teaches Hayatul Muslimeen
-								beautifully.All Coordinators are also very helpful and friendly. May Allah accept all of
-								their efforts and also be very pleased with you people. (Aameen)
+								motivation about our blessed Deen &quot;Islam&quot;. Shaheed Junaid Jamshed Academy of
+								Quranic Sciences provides us a vast platform to receive Islamic education. The
+								environment of the Academy is so different from others. Muniza Javed (Hamsheera Shaheed
+								Junaid Jamshed) teaches Tafseer wonderfully well. May Allah accept her efforts and be
+								very pleased with her.I am very thankful to all the coordinators and teachers of the
+								academy including Hadith teacher Sumaiya baji,Seerah teacher Seema Aapa and Aalimah
+								Farwa Khalil. Muzaina Usman, the sweetest Fiqh teacher ever, Samina Sanaullah Aapa
+								teaches Hayatul Muslimeen beautifully.All Coordinators are also very helpful and
+								friendly. May Allah accept all of their efforts and also be very pleased with you
+								people. (Aameen)
 							</p>
 						</AccordionItemPanel>
 					</AccordionItem>
