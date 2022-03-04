@@ -1,0 +1,47 @@
+.test-wrap {
+	padding: 40px 70px;
+	@include for-mobile {
+		padding: 20px;
+	}
+	.testimonial-heading {
+		font-size: 74px;
+		text-align: center;
+		// border-bottom: 6px solid #fff;
+		@include for-mobile {
+			font-size: 45px;
+		}
+	}
+}
+.sliderSingleItem {
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	.test-h {
+		font-size: 25px;
+	}
+	.test-span {
+		font-size: 18px;
+		font-weight: 500;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	span {
+		display: inline-block;
+		background-color: #fff;
+		margin-top: 20px;
+		padding: 5px 10px;
+		border-radius: 10px;
+		border: 1px solid #fff;
+		transition: 0.3s ease-in-out;
+		&:hover {
+			cursor: pointer;
+			background-color: #000;
+			color: #fff;
+			box-shadow: 0 0 5px #cfcfcf;
+			border: 1px solid #000;
+		}
+	}
+}

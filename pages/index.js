@@ -5,6 +5,7 @@ import AboutUs from '../components/about';
 import Team from '../components/team';
 import ContactComp from '../components/contact';
 import Script from 'next/script';
+import TestimonialSlider from '../components/testimonialsSlider';
 export default function Home() {
 	const [ scrollValue, setScrollValue ] = useState(0);
 	useEffect(() => {
@@ -52,6 +53,7 @@ export default function Home() {
 			</div>
 			<AboutUs home={true} />
 			<Team />
+			<TestimonialSlider />
 			<ContactComp />
 			<div className={scrollValue > 100 ? 'scrollVisible' : 'scrollHide'}>
 				<a href="#top" className="animate">
