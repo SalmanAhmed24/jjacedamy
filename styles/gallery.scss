@@ -1,0 +1,21 @@
+.css-7rtvwf-MuiImageListItem-root {
+	border-radius: 5px;
+	overflow: hidden;
+}
+.galleryWrap {
+	padding: 20px 50px;
+}
+.gallery-h {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 75px;
+}
+.galleryImg {
+	opacity: 0.8;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		opacity: 1;
+		cursor: pointer;
+	}
+}

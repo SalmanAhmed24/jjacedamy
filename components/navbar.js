@@ -98,6 +98,24 @@ function Navbar() {
 					<li
 						className="links"
 						onClick={() => {
+							router.push('/gallery');
+							toggleDrawer();
+						}}
+					>
+						Gallery
+					</li>
+					<li
+						className="links"
+						onClick={() => {
+							router.push('/testimonials');
+							toggleDrawer();
+						}}
+					>
+						Testimonials
+					</li>
+					<li
+						className="links"
+						onClick={() => {
 							router.push('/faqs');
 							toggleDrawer();
 						}}
