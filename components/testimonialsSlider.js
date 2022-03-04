@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import { useRouter } from 'next/router';
+import AOS from 'aos';
 
 function TestimonialSlider() {
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	const router = useRouter();
 	const test = [
 		{
@@ -44,7 +48,14 @@ function TestimonialSlider() {
 		}
 	];
 	return (
-		<div className="test-wrap">
+		<div
+			className="test-wrap"
+			data-aos="fade-up"
+			data-aos-offset="250"
+			data-aos-delay="50"
+			data-aos-duration="2000"
+			data-aos-easing="ease-in-out"
+		>
 			<h2 className="testimonial-heading">Testimonials</h2>
 			<Carousel
 				className="carousel-slider"
