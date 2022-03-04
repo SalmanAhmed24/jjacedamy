@@ -56,7 +56,7 @@ function TestimonialSlider() {
 			>
 				{test.map((i) => {
 					return (
-						<div className="sliderSingleItem">
+						<div key={i.mainHeading} className="sliderSingleItem">
 							<h3 className="test-h">{i.mainHeading}</h3>
 							<p className="test-span">{i.subHeading}</p>
 							<p className="desc-p">{i.description}</p>
