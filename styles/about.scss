@@ -151,3 +151,8 @@
 		border: 0px;
 	}
 }
+.illustration {
+	@include for-mobile {
+		width: 100%;
+	}
+}

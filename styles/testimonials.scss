@@ -19,14 +19,27 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 10px;
+	@include for-tab-mobile {
+		height: 450px;
+	}
+	@include for-mobile {
+		height: 550px;
+		justify-content: flex-start;
+	}
 	.test-h {
 		font-size: 25px;
+		@include for-mobile {
+			font-size: 20px;
+		}
 	}
 	.test-span {
 		font-size: 18px;
 		font-weight: 500;
 		margin-top: 10px;
 		margin-bottom: 10px;
+		@include for-mobile {
+			font-size: 16px;
+		}
 	}
 	span {
 		display: inline-block;

@@ -22,9 +22,9 @@ function Navbar() {
 		setIsOpen(!isOpen);
 	};
 	return (
-		<nav className={scrollPosition > 68 ? 'navbarColored posFixed' : 'navbarWrap'}>
+		<nav className={scrollPosition > 30 ? 'navbarColored posFixed' : 'navbarWrap'}>
 			<div className="logoWrap">
-				{scrollPosition > 68 ? null : (
+				{scrollPosition > 30 ? null : (
 					<img className="logo" onClick={() => router.push('/')} src="./images/logo.png" />
 				)}
 			</div>
