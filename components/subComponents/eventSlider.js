@@ -39,7 +39,7 @@ function EventSlider({ event }) {
 				</div> */}
 			</div>
 			<div className="eventCardWrap">
-				<img className="eventImage" src={`data:image/png;base64,${event.file.data}`} className="sliderImg" />
+				<img className="eventImage" src={`data:image/png;base64,${event.file.data}`} />
 			</div>
 		</div>
 	);
