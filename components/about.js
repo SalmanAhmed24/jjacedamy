@@ -15,6 +15,7 @@ function AboutUs({ home }) {
 				data-aos-delay="50"
 				data-aos-duration="1000"
 				data-aos-easing="ease-in-out"
+				data-aos-once="true"
 			>
 				<div className="headingWrap">
 					<h1 className={'about-h'}>About Us</h1>
@@ -39,6 +40,7 @@ function AboutUs({ home }) {
 					data-aos-delay="50"
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-out"
+					data-aos-once="true"
 				>
 					<img className="illustration" src="./images/quran-bg.png" />
 				</div>
@@ -50,6 +52,7 @@ function AboutUs({ home }) {
 					data-aos-delay="50"
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-out"
+					data-aos-once="true"
 				>
 					<div className="imgQuran">
 						<div className="overlay" />

@@ -55,6 +55,7 @@ function TestimonialSlider() {
 			data-aos-delay="50"
 			data-aos-duration="2000"
 			data-aos-easing="ease-in-out"
+			data-aos-once="true"
 		>
 			<h2 className="testimonial-heading">Testimonials</h2>
 			<Carousel

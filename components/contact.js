@@ -13,6 +13,7 @@ function ContactComp() {
 				data-aos-delay="50"
 				data-aos-duration="1000"
 				data-aos-easing="ease-in-out"
+				data-aos-once="true"
 			>
 				Contact Us
 			</h1>
@@ -27,6 +28,7 @@ function ContactComp() {
 					data-aos-delay="50"
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-out"
+					data-aos-once="true"
 				>
 					<h1>Islamabad Campus</h1>
 					<div className="card-links">
@@ -49,6 +51,7 @@ function ContactComp() {
 					data-aos-delay="50"
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-out"
+					data-aos-once="true"
 				>
 					<h1>Bahria Campus Rawalpindi </h1>
 					<div className="card-links">

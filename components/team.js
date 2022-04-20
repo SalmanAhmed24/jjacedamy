@@ -67,6 +67,7 @@ function Team() {
 			data-aos-delay="50"
 			data-aos-duration="2000"
 			data-aos-easing="ease-in-out"
+			data-aos-once="true"
 		>
 			<div className="heading">
 				<h1 className="team-h">Team</h1>
