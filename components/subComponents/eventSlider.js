@@ -29,11 +29,9 @@ function EventSlider({ event }) {
 					</div>
 					<div className="event-info-wrap">
 						<img src="../../images/clock.png" alt="Start Time:" />
-						<span>{tConvert(event.startTime)}</span>
-					</div>
-					<div className="event-info-wrap">
-						<img src="../../images/clock.png" alt="End Time:" />
-						<span>{tConvert(event.endTime)}</span>
+						<span>
+							{tConvert(event.startTime)} - {tConvert(event.endTime)}
+						</span>
 					</div>
 					<div className="event-info-wrap">
 						<img src="../../images/address2.png" alt="Address:" />
