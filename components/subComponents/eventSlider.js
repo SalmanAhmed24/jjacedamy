@@ -14,32 +14,37 @@ function EventSlider({ event }) {
 		return time.join(''); // return adjusted time or original string
 	}
 	return (
-		<div className="slider1Wrap">
+		<div className="eventSlider1Wrap">
+			<div className="backDrop" />
 			<div className="eventWrap">
 				<h1 className="event-h">{event.title}</h1>
-				<p className="courses-p">
-					Speaker: <span>{event.speaker}</span>
-				</p>
-				<p className="courses-p">
-					Start Time:{' '}
-					<span className="startTime">
+				<div className="mainEventInfoWrap">
+					<div className="event-info-wrap">
+						<img src="../../images/speaker.png" alt="Speaker:" />
+						<span>{event.speaker}</span>
+					</div>
+					<div className="event-info-wrap">
+						<img src="../../images/plan.png" alt="Date:" />
+						<span>{event.date}</span>
+					</div>
+					<div className="event-info-wrap">
+						<img src="../../images/clock.png" alt="Start Time:" />
 						<span>{tConvert(event.startTime)}</span>
-					</span>
-				</p>
-				<p className="courses-p">
-					Ends Time: <span className="startTime">{tConvert(event.endTime)}</span>
-				</p>
-				<p className="courses-p">
-					Date: <span>{tConvert(event.date)}</span>
-				</p>
-				{/* <div className="btn-enrol-wrap">
+					</div>
+					<div className="event-info-wrap">
+						<img src="../../images/clock.png" alt="End Time:" />
+						<span>{tConvert(event.endTime)}</span>
+					</div>
+					<div className="event-info-wrap">
+						<img src="../../images/address2.png" alt="Address:" />
+						<span>{event.address}</span>
+					</div>
+				</div>
+				<div className="btn-enrol-wrap">
 					<button className="btn-enrol" onClick={() => router.push('/courses')}>
-						Enroll Now
+						View Event
 					</button>
-				</div> */}
-			</div>
-			<div className="eventCardWrap">
-				<img className="eventImage" src={`data:image/png;base64,${event.file.data}`} />
+				</div>
 			</div>
 		</div>
 	);
