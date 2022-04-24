@@ -1,10 +1,7 @@
 .mainSliderWrap {
-	// background: linear-gradient(45deg, black, transparent);
-	background: #fafafa;
+	background: linear-gradient(45deg, black, transparent);
 	// padding: 50px 0px;
 	height: 500px;
-	box-shadow: 0 0 5px #a2a2a2;
-	backdrop-filter: blur(5px);
 	@include for-mobile {
 		height: 500px;
 	}
@@ -14,8 +11,6 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	padding: 20px 70px;
-	background: #fafafa;
-	// box-shadow: 0 0 5px #a2a2a2;
 	@include for-mobile {
 		padding: 20px 20px 20px 20px;
 	}
@@ -77,8 +72,8 @@
 				border-radius: 5px;
 				padding: 5px 20px;
 				border: 0px;
-				box-shadow: 0 0 5px #000;
-				color: #000;
+				box-shadow: 0 0 5px #fff;
+				color: #fff;
 				transition: 0.3s ease-in-out;
 				@include for-mobile {
 					font-size: 18px;
@@ -102,6 +97,47 @@
 		@include for-both {
 			width: 100%;
 		}
+		// .cardCourse {
+		// 	padding: 15px;
+		// 	background: rgb(70 130 180 / 80%);
+		// 	border-radius: 10px;
+		// 	display: flex;
+		// 	flex-direction: column;
+		// 	width: 48%;
+		// 	transition: 0.3s ease-in-out;
+		// 	&:hover {
+		// 		background: rgb(70 130 180 / 100%);
+		// 	}
+		// 	.cardCourse-h {
+		// 		color: #fff;
+		// 		font-weight: 600;
+		// 		margin-bottom: 20px;
+		// 		font-size: 24px;
+		// 	}
+		// 	.coursesList {
+		// 		display: flex;
+		// 		flex-direction: column;
+		// 		justify-content: flex-start;
+		// 		align-content: flex-start;
+		// 		align-items: flex-start;
+		// 		padding: 0px 20px;
+		// 		li {
+		// 			color: #fff;
+		// 			font-size: 18px;
+		// 			margin-bottom: 5px;
+		// 			text-align: left;
+		// 		}
+		// 	}
+		// 	.course-p {
+		// 		width: 90%;
+		// 		margin-top: 10px;
+		// 		margin-bottom: 10px;
+		// 		align-self: center;
+		// 		font-size: 16px;
+		// 		text-align: left;
+		// 		color: #fff;
+		// 	}
+		// }
 	}
 }
 .viewBtn-wrap {
@@ -148,8 +184,10 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	z-index: 22 !important;
-	backdrop-filter: blur(4px);
+	background-image: url('../public/images/eventBG.jpg');
+	background-position-y: 0px;
+	background-position-x: 0px;
+	background-repeat: no-repeat;
 	@include for-both {
 		width: 100%;
 		margin-bottom: 20px;
@@ -157,10 +195,8 @@
 	.courses-p {
 		margin-bottom: 10px !important;
 		z-index: 22;
-		color: #000 !important;
 		span {
 			font-weight: bold;
-			color: #000 !important;
 		}
 	}
 	.btn-enrol-wrap {
@@ -180,8 +216,8 @@
 			border-radius: 5px;
 			padding: 5px 20px;
 			border: 0px;
-			box-shadow: 0 0 5px #000;
-			color: #000;
+			box-shadow: 0 0 5px #fff;
+			color: #fff;
 			z-index: 22;
 			transition: 0.3s ease-in-out;
 			@include for-mobile {
@@ -208,6 +244,15 @@
 		height: 500px;
 	}
 }
+.backDrop {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(45deg, black, transparent);
+	backdrop-filter: blur(13px);
+	position: absolute;
+	top: 0;
+	z-index: 11;
+}
 .event-info-wrap {
 	display: flex;
 	z-index: 22;
@@ -223,7 +268,7 @@
 	span {
 		display: flex;
 		justify-content: flex-start;
-		color: #000 !important;
+		color: #fff;
 		align-self: center;
 		font-weight: 600;
 		text-transform: uppercase;
@@ -243,14 +288,5 @@
 		flex-direction: column;
 		align-items: flex-start;
 		padding-left: 40px;
-	}
-}
-.sliderBack {
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-	z-index: -1;
-	img {
-		z-index: -1;
 	}
 }

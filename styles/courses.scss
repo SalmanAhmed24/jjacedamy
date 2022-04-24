@@ -7,19 +7,21 @@
 	}
 }
 .react-tabs__tab--selected {
-	color: #fff !important;
-	background: #000;
+	color: #000 !important;
+	background: #fff;
 	transition: 0.3s ease-in-out;
-	box-shadow: 0 0 5px #000;
 }
 .react-tabs__tab {
-	color: #000;
+	color: #fff;
 	transition: 0.3s ease-in-out;
 	border-radius: 5px;
 	margin-right: 10px;
 	font-size: 18px;
 	text-transform: uppercase;
-	border: 1px solid #000;
+	&:hover {
+		background: #fff;
+		color: #000;
+	}
 }
 .react-tabs__tab-list {
 	border: 0px;
@@ -33,7 +35,7 @@
 		font-size: 18px;
 	}
 	ul {
-		color: #000;
+		color: #fff;
 		font-size: 18px;
 	}
 	h4 {
@@ -59,7 +61,7 @@
 	background: #fff;
 	color: #000;
 	border-radius: 5px;
-	box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 5px #fff;
 	transition: 0.3s ease-in-out;
 	padding: 5px 30px;
 	&:hover {
