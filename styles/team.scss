@@ -84,3 +84,8 @@
 	color: #000;
 	text-align: justify;
 }
+.ReactModal__Content {
+	@include for-mobile {
+		width: 90% !important;
+	}
+}
