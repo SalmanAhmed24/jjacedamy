@@ -25,7 +25,7 @@ function Navbar() {
 		<nav className={scrollPosition > 30 ? 'navbarColored posFixed' : 'navbarWrap'}>
 			<div className="logoWrap">
 				{scrollPosition > 30 ? null : (
-					<img className="logo" onClick={() => router.push('/')} src="./images/logo.png" />
+					<img className="logo" onClick={() => router.push('/')} src="./images/jjAcademy.png" />
 				)}
 			</div>
 			<div className="linksWrap">

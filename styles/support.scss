@@ -70,6 +70,7 @@
 		margin-top: 40px;
 		box-shadow: 0 0 10px #fff;
 		transition: 0.3s ease-in-out;
+		box-shadow: 0 0 10px #a2a2a2;
 		@include for-mobile {
 			padding: 40px 10px;
 		}
@@ -82,7 +83,6 @@
 		.bank-h {
 			text-align: center;
 			text-transform: uppercase;
-			text-shadow: 2px 2px #000;
 			font-size: 30px;
 			@include for-mobile {
 				text-align: left;

@@ -15,7 +15,6 @@ function EventSlider({ event }) {
 	}
 	return (
 		<div className="eventSlider1Wrap">
-			<div className="backDrop" />
 			<div className="eventWrap">
 				<h1 className="event-h">{event.title}</h1>
 				<div className="mainEventInfoWrap">
@@ -24,11 +23,11 @@ function EventSlider({ event }) {
 						<span>{event.speaker}</span>
 					</div>
 					<div className="event-info-wrap">
-						<img src="../../images/plan.png" alt="Date:" />
+						<img src="../../images/planner.png" alt="Date:" />
 						<span>{event.date}</span>
 					</div>
 					<div className="event-info-wrap">
-						<img src="../../images/clock.png" alt="Start Time:" />
+						<img src="../../images/clock.svg" alt="Start Time:" />
 						<span>
 							{tConvert(event.startTime)} - {tConvert(event.endTime)}
 						</span>
@@ -43,6 +42,9 @@ function EventSlider({ event }) {
 						View Event
 					</button>
 				</div>
+			</div>
+			<div className="sliderBack">
+				<img className="bgSlider" src="../../images/slider.png" alt="Events" />
 			</div>
 		</div>
 	);
