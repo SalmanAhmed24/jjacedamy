@@ -242,10 +242,10 @@
 		padding: 0px;
 		flex-direction: column;
 		height: 500px;
-	}
-	img {
-		width: 500px;
-		height: 500px;
+		img {
+			width: 100% !important;
+			height: 350px !important;
+		}
 	}
 }
 .backDrop {
