@@ -297,4 +297,7 @@
 }
 .carousel .control-next.control-arrow {
 	right: 15px !important;
+	@include for-mobile {
+		right: 0 !important;
+	}
 }
