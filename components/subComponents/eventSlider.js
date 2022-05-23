@@ -15,7 +15,8 @@ function EventSlider({ event }) {
 	}
 	return (
 		<div className="eventSlider1Wrap">
-			<div className="backDrop" />
+			<img src={`data:${event.file.mimetype};base64,${event.file.data}`} />
+			{/* <div className="backDrop" />
 			<div className="eventWrap">
 				<h1 className="event-h">{event.title}</h1>
 				<div className="mainEventInfoWrap">
@@ -43,7 +44,7 @@ function EventSlider({ event }) {
 						View Event
 					</button>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 }
