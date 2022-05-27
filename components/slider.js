@@ -14,7 +14,7 @@ function Slide() {
 	};
 	useEffect(() => {
 		axios
-			.get('https://junaidjamshed-backend.herokuapp.com/api/allEvents')
+			.get('https://jj-backend-app.herokuapp.com/api/allEvents')
 			.then((res) => {
 				setEventData(res.data);
 			})
