@@ -89,6 +89,15 @@ function Navbar() {
 					<li
 						className="links"
 						onClick={() => {
+							router.push('/events');
+							toggleDrawer();
+						}}
+					>
+						Events
+					</li>
+					<li
+						className="links"
+						onClick={() => {
 							router.push('/support');
 							toggleDrawer();
 						}}
