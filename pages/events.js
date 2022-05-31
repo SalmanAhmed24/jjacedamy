@@ -38,7 +38,7 @@ function Events() {
 				) : (
 					allEvents.map((i) => {
 						return (
-							<div className="card">
+							<div className="card" key={i._id}>
 								<img src={`data:${i.mobileImg.mimetype};base64,${i.mobileImg.data}`} alt="Image here" />
 								<div className="blackOverlay">
 									<h2>{i.title}</h2>
