@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import moment from 'moment';
+import { useRouter } from 'next/router';
+
 function EventSlider({ event }) {
+	const router = useRouter();
 	function tConvert(time) {
 		// Check correct time format and split into components
 		time = time.toString().match(/^([01]\d|2[0-3])(:)([0-5]\d)(:[0-5]\d)?$/) || [ time ];
@@ -13,8 +16,12 @@ function EventSlider({ event }) {
 		}
 		return time.join(''); // return adjusted time or original string
 	}
+	const openEventModule = () => {
+		console.log('clicked');
+		router.push('events');
+	};
 	return (
-		<div className="eventSlider1Wrap">
+		<div onClick={openEventModule} className="eventSlider1Wrap">
 			<img src={`data:${event.file.mimetype};base64,${event.file.data}`} />
 			{/* <div className="backDrop" />
 			<div className="eventWrap">

@@ -8,7 +8,7 @@ import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';
 import { useRouter } from 'next/router';
 
-function Slide() {
+function AllEventsSlider() {
 	const [ scrollPosition, setScrollPosition ] = useState(0);
 	const [ eventData, setEventData ] = useState();
 	const [ loaderFlag, setLoaderFlag ] = useState(false);
@@ -43,7 +43,6 @@ function Slide() {
 				</Box>
 			) : (
 				<Carousel autoPlay={true} infiniteLoop={true} interval={5000} showStatus={false} showThumbs={false}>
-					<SlideOne />
 					{eventData && eventData.length ? (
 						eventData.map((i) => {
 							return <EventSlider key={i._id} event={i} />;
@@ -56,4 +55,4 @@ function Slide() {
 	);
 }
 
-export default Slide;
+export default AllEventsSlider;

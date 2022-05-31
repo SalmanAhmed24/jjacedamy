@@ -184,7 +184,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: url('../public/images/eventBG.jpg');
 	background-position-y: 0px;
 	background-position-x: 0px;
 	background-repeat: no-repeat;
@@ -246,6 +245,7 @@
 		img {
 			width: 100% !important;
 			height: 200px !important;
+			z-index: 22222;
 		}
 	}
 }
