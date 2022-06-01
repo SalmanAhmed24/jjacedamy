@@ -244,8 +244,10 @@
 		height: 300px;
 		img {
 			width: 100% !important;
-			height: 200px !important;
 			z-index: 22222;
+		}
+		.mobileImg {
+			height: 100% !important;
 		}
 	}
 }
