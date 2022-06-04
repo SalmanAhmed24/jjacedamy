@@ -37,7 +37,9 @@ function ContactComp() {
 					</div>
 					<div className="card-links">
 						<img src="./images/phone.png" className="icons" />
-						<a href="tel:+923400271111">03400271111</a>
+						<a href="tel:+923055463000">03055463000</a>
+						<span className="comma">/</span>
+						<a href="tel:+923213999294">03213999294</a>
 					</div>
 					<div className="card-links">
 						<img src="./images/address.png" className="icons" />
@@ -61,8 +63,6 @@ function ContactComp() {
 					<div className="card-links">
 						<img src="./images/phone.png" className="icons" />
 						<a href="tel:+923245023783">03245023783</a>
-						<span className="comma">/</span>
-						<a href="tel:+923400271111">03400271111</a>
 					</div>
 					<div className="card-links">
 						<img src="./images/address.png" className="icons" />
