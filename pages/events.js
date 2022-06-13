@@ -41,7 +41,7 @@ function Events() {
 							<div className="card" key={i._id}>
 								<img src={`data:${i.mobileImg.mimetype};base64,${i.mobileImg.data}`} alt="Image here" />
 								<div className="blackOverlay">
-									<h2>{i.title}</h2>
+									<h2 style={{ textAlign: 'center' }}>{i.title}</h2>
 									<p>{i.date}</p>
 									<p>{i.address}</p>
 									<button className="detBtn" onClick={() => goToDetails(i._id)}>
