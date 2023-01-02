@@ -679,6 +679,36 @@ function Testimonials() {
 							</p>
 						</AccordionItemPanel>
 					</AccordionItem>
+					<AccordionItem>
+						<AccordionItemHeading>
+							<AccordionItemButton>ANUSHA ARIF</AccordionItemButton>
+						</AccordionItemHeading>
+						<AccordionItemPanel>
+							<p>
+								I had the privilege of attending the fifth annual seerah conference of Junaid Jamshed
+								Academy and for sure it was worth attending.The experience overall was beyond amazing.My
+								favourite part of the day was Muniza Aunty&apos;s bayan/kalam.It was a much needed
+								session and felt like a blessing. Jazakallah to the organisers and to all the J.J
+								academy team.Like everytime you guys have been amazing this time too.The love,
+								hospitality, warmth and easiness you people provided motivates to get back to such
+								events everytime.A highly recommended place for everyone to go.
+							</p>
+						</AccordionItemPanel>
+					</AccordionItem>
+					<AccordionItem>
+						<AccordionItemHeading>
+							<AccordionItemButton>ANEESA ASGHAR</AccordionItemButton>
+						</AccordionItemHeading>
+						<AccordionItemPanel>
+							<p>
+								The Event Jamal-e-Mustafa was well organised. Everything including the setup,
+								people&apos;s behaviour, talks, quiz and dua was very Good.I really felt like it was
+								worth attending, got so much motivation and would anxiously waiting for such events so I
+								can attend. Really appreciate such mindful and informative events. Thanks to All those
+								who were involved in this.
+							</p>
+						</AccordionItemPanel>
+					</AccordionItem>
 				</Accordion>
 			</div>
 		</div>
